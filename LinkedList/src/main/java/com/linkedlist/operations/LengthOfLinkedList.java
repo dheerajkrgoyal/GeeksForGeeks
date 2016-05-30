@@ -18,7 +18,7 @@ public class LengthOfLinkedList
         System.out.println("length of linked list: " + recursiveLengthOfLinkedList( list.getHead() ));
     }
 
-    private static int iterativeLengthOfLinkedList(Node head){
+    public static int iterativeLengthOfLinkedList(Node head){
         if(head == null){
             return 0;
         }
@@ -31,7 +31,7 @@ public class LengthOfLinkedList
         return length;
     }
 
-    private static int recursiveLengthOfLinkedList(Node head){
+    public static int recursiveLengthOfLinkedList(Node head){
         if(head == null){
             return 0;
         }
